@@ -1,0 +1,47 @@
+/* Navbar.css */
+.navbar {
+    background-color: #007bff; /* Use any blue color you like */
+    color: #fff; /* Set the text color to white */
+    height: 60px; /* Set the height of the navbar */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Set the maximum width of the container */
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .navbar-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
